@@ -33,13 +33,13 @@ jobs:
             ${{ runner.os }}-yarn-
 
       - name: Install dependencies YARN
-        if: ${{ package-manager == 'yarn' && steps.yarn-cache.outputs.cache-hit != 'true'}}
+        if: ${{ inputs.package-manager == 'yarn' && steps.yarn-cache.outputs.cache-hit != 'true'}}
         run: yarn install
 
       - name: Cache Node Modules NPM
         uses: actions/cache@v2
         id: npm-cache
-        if: ${{ package-manager == 'npm' }}
+        if: ${{ inputs.package-manager == 'npm' }}
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
@@ -47,6 +47,6 @@ jobs:
             ${{ runner.os }}-node-
 
       - name: Install dependencies NPM
-        if: ${{ package-manager == 'yarn' && steps.npm-cache.outputs.cache-hit != 'true'}}
+        if: ${{ inputs.package-manager == 'yarn' && steps.npm-cache.outputs.cache-hit != 'true'}}
         run: yarn install
 
