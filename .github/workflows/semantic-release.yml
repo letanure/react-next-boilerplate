@@ -4,14 +4,14 @@ on:
     branches: [main]
 
 jobs:
+  setup_install:
+    uses: letanure/react-next-boilerplate/.github/workflows/checkout-setup-cache-install.yml@main
+    with:
+      package-manager: "yarn"
+
   semantic_release:
     name: Semantic Release
-    runs-on: ubuntu-latest
     steps:
-      - uses: letanure/react-next-boilerplate/.github/workflows/checkout-setup-cache-install.yml@main
-        with:
-          package-manager: "yarn"
-
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
