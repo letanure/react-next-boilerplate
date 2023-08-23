@@ -5,11 +5,6 @@ export const Wrapper = styled.main`
   height: 100%;
 `
 
-export const Logo = styled.img`
-  width: 25rem;
-  margin-top: 2rem;
-`
-
 export const Title = styled.h1`
   font-size: 5rem;
   font-weight: 700;
