@@ -2,12 +2,13 @@
 
 import * as S from './styles'
 
-const Main = () => (
+const Main = ({
+  title = 'Boilerplate',
+  description = 'TypeScript, ReactJS, NextJS e Styled Components',
+}) => (
   <S.Wrapper>
-    <S.Title>Boilerplate</S.Title>
-    <S.Description>
-      TypeScript, ReactJS, NextJS e Styled Components
-    </S.Description>
+    <S.Title>{title}</S.Title>
+    <S.Description>{description}</S.Description>
   </S.Wrapper>
 )
 

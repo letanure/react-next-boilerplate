@@ -1,10 +1,16 @@
-import Main from '.'
+import type { Meta, StoryObj } from '@storybook/react'
+import Main from './'
 
-const story = {
-  title: 'Components/Main',
+const meta: Meta<typeof Main> = {
   component: Main,
 }
 
-export default story
+export default meta
+type Story = StoryObj<typeof Main>
 
-export const Basic = () => <Main />
+export const Primary: Story = {
+  args: {
+    title: 'Boilerplate',
+    description: 'TypeScript, ReactJS, NextJS e Styled Components',
+  },
+}
