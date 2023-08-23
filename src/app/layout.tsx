@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     template: '%s | Boilerplate',
   },
   description: 'Next.js + Styled Components + TypeScript Boilerplate',
+  manifest: '/manifest.json',
 }
 
 export default function RootLayout({
