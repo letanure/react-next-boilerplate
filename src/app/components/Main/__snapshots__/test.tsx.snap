@@ -1,19 +1,32 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Main /> should render the heading 1`] = `
+.c0 {
+  width: 100%;
+  height: 100%;
+}
+
+.c1 {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.c2 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
 <main
-  class="styles__Wrapper-sc-1lz7arq-0 bZrhxP"
+  class="c0"
 >
-  <img
-    class="styles__Logo-sc-1lz7arq-1 keHDlc"
-  />
   <h1
-    class="styles__Title-sc-1lz7arq-2 cYtLDX"
+    class="c1"
   >
     Boilerplate
   </h1>
   <h2
-    class="styles__Description-sc-1lz7arq-3 deepBN"
+    class="c2"
   >
     TypeScript, ReactJS, NextJS e Styled Components
   </h2>
