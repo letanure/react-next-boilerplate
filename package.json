@@ -13,7 +13,7 @@
     "test:watch": "jest --watch --maxWorkers=25%",
     "test": "jest --maxWorkers=50% --passWithNoTests",
     "storybook": "storybook dev -p 6006 -s ./public",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build -s ./public"
   },
   "lint-staged": {
     "src/**/*": [
