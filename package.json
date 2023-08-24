@@ -21,7 +21,7 @@
   },
   "lint-staged": {
     "src/**/*": [
-      "pnpm lint --fix",
+      "pnpm lint:js --fix",
       "pnpm test --bail "
     ]
   },
