@@ -19,10 +19,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <GlobalStyles />
-      <body>
-        <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
-      </body>
+      <StyledComponentsRegistry>
+        <GlobalStyles />
+        <body>{children}</body>
+      </StyledComponentsRegistry>
     </html>
   )
 }
