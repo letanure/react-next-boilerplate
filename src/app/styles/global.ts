@@ -8,10 +8,6 @@ const GlobalStyles = createGlobalStyle`
     padding: 0;
   }
 
-  body {
-    padding: 0;
-  }
-
   html {
     font-size: 62.5%;
     box-sizing: border-box;
@@ -23,9 +19,10 @@ const GlobalStyles = createGlobalStyle`
   *, *::before, *::after {
     box-sizing: inherit;
   }
-
-  html, body, #__next {
+  
+  html, body, #__next { /* stylelint-disable-line */
     height: 100%;
+    padding: 0;
   }
 
   body {
