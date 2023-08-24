@@ -9,18 +9,18 @@ const GlobalStyles = createGlobalStyle`
   }
 
   html {
-    font-size: 62.5%;
-    box-sizing: border-box;
-    padding: 0;
     background-color: aliceblue;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    padding: 0;
     text-align: center;
   }
 
   *, *::before, *::after {
     box-sizing: inherit;
   }
-  
-  html, body, #__next { /* stylelint-disable-line */
+
+  html, body, #__next {
     height: 100%;
     padding: 0;
   }

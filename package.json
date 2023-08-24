@@ -8,7 +8,7 @@
     "generate": "pnpm plop --plopfile generators/plopfile.js",
     "lint:next": "next lint",
     "lint": "eslint src --max-warnings=0",
-    "lint:css": "stylelint './src/**/*.ts'",
+    "lint:css": "stylelint './src/**/*.ts' --max-warnings 0",
     "prepare": "husky install",
     "start": "next start",
     "test:ci": "jest --runInBand",
@@ -68,6 +68,7 @@
     "storybook": "^7.3.2",
     "stylelint": "^15.10.3",
     "stylelint-config-standard": "^34.0.0",
+    "stylelint-order": "^6.0.3",
     "typescript": "5.1.6"
   }
 }

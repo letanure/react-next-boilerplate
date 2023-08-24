@@ -133,6 +133,9 @@ devDependencies:
   stylelint-config-standard:
     specifier: ^34.0.0
     version: 34.0.0(stylelint@15.10.3)
+  stylelint-order:
+    specifier: ^6.0.3
+    version: 6.0.3(stylelint@15.10.3)
   typescript:
     specifier: 5.1.6
     version: 5.1.6
@@ -11063,6 +11066,14 @@ packages:
       util-deprecate: 1.0.2
     dev: true
 
+  /postcss-sorting@8.0.2(postcss@8.4.28):
+    resolution: {integrity: sha512-M9dkSrmU00t/jK7rF6BZSZauA5MAaBW4i5EnJXspMwt4iqTh/L9j6fgMnbElEOfyRyfLfVbIHj/R52zHzAPe1Q==}
+    peerDependencies:
+      postcss: ^8.4.20
+    dependencies:
+      postcss: 8.4.28
+    dev: true
+
   /postcss-styled-syntax@0.4.0(postcss@8.4.28)(typescript@5.1.6):
     resolution: {integrity: sha512-LvG++K8LtIyX1Q1mNuZVQYmBo+SCwn90cEkMigo4/I0QwXrEiYt8nPeJ5rrI5Uuh+5w7hRfPyJKlvQdhVZBhUg==}
     peerDependencies:
@@ -12566,6 +12577,16 @@ packages:
     dependencies:
       stylelint: 15.10.3
       stylelint-config-recommended: 13.0.0(stylelint@15.10.3)
+    dev: true
+
+  /stylelint-order@6.0.3(stylelint@15.10.3):
+    resolution: {integrity: sha512-1j1lOb4EU/6w49qZeT2SQVJXm0Ht+Qnq9GMfUa3pMwoyojIWfuA+JUDmoR97Bht1RLn4ei0xtLGy87M7d29B1w==}
+    peerDependencies:
+      stylelint: ^14.0.0 || ^15.0.0
+    dependencies:
+      postcss: 8.4.28
+      postcss-sorting: 8.0.2(postcss@8.4.28)
+      stylelint: 15.10.3
     dev: true
 
   /stylelint@15.10.3:
