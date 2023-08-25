@@ -23,8 +23,8 @@ dependencies:
 
 devDependencies:
   '@babel/preset-typescript':
-    specifier: ^7.22.5
-    version: 7.22.5(@babel/core@7.22.10)
+    specifier: ^7.22.11
+    version: 7.22.11(@babel/core@7.22.10)
   '@commitlint/cli':
     specifier: ^17.7.1
     version: 17.7.1(@swc/core@1.3.78)
@@ -268,6 +268,23 @@ packages:
 
   /@babel/helper-create-class-features-plugin@7.22.10(@babel/core@7.22.10):
     resolution: {integrity: sha512-5IBb77txKYQPpOEdUdIhBx8VrZyDCQ+H82H0+5dX1TmuscP5vJKEE3cKurjtIw/vFwzbVH48VweE78kVDBrqjA==}
+    engines: {node: '>=6.9.0'}
+    peerDependencies:
+      '@babel/core': ^7.0.0
+    dependencies:
+      '@babel/core': 7.22.10
+      '@babel/helper-annotate-as-pure': 7.22.5
+      '@babel/helper-environment-visitor': 7.22.5
+      '@babel/helper-function-name': 7.22.5
+      '@babel/helper-member-expression-to-functions': 7.22.5
+      '@babel/helper-optimise-call-expression': 7.22.5
+      '@babel/helper-replace-supers': 7.22.9(@babel/core@7.22.10)
+      '@babel/helper-skip-transparent-expression-wrappers': 7.22.5
+      '@babel/helper-split-export-declaration': 7.22.6
+      semver: 6.3.1
+
+  /@babel/helper-create-class-features-plugin@7.22.11(@babel/core@7.22.10):
+    resolution: {integrity: sha512-y1grdYL4WzmUDBRGK0pDbIoFd7UZKoDurDzWEoNMYoj1EL+foGRQNyPWDcC+YyegN5y1DUsFFmzjGijB3nSVAQ==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0
@@ -973,6 +990,17 @@ packages:
       '@babel/helper-module-transforms': 7.22.9(@babel/core@7.22.10)
       '@babel/helper-plugin-utils': 7.22.5
 
+  /@babel/plugin-transform-modules-commonjs@7.22.11(@babel/core@7.22.10):
+    resolution: {integrity: sha512-o2+bg7GDS60cJMgz9jWqRUsWkMzLCxp+jFDeDUT5sjRlAxcJWZ2ylNdI7QQ2+CH5hWu7OnN+Cv3htt7AkSf96g==}
+    engines: {node: '>=6.9.0'}
+    peerDependencies:
+      '@babel/core': ^7.0.0-0
+    dependencies:
+      '@babel/core': 7.22.10
+      '@babel/helper-module-transforms': 7.22.9(@babel/core@7.22.10)
+      '@babel/helper-plugin-utils': 7.22.5
+      '@babel/helper-simple-access': 7.22.5
+
   /@babel/plugin-transform-modules-commonjs@7.22.5(@babel/core@7.22.10):
     resolution: {integrity: sha512-B4pzOXj+ONRmuaQTg05b3y/4DuFz3WcCNAXPLb2Q0GT0TrGKGxNKV4jwsXts+StaM0LQczZbOpj8o1DLPDJIiA==}
     engines: {node: '>=6.9.0'}
@@ -1252,15 +1280,15 @@ packages:
       '@babel/core': 7.22.10
       '@babel/helper-plugin-utils': 7.22.5
 
-  /@babel/plugin-transform-typescript@7.22.10(@babel/core@7.22.10):
-    resolution: {integrity: sha512-7++c8I/ymsDo4QQBAgbraXLzIM6jmfao11KgIBEYZRReWzNWH9NtNgJcyrZiXsOPh523FQm6LfpLyy/U5fn46A==}
+  /@babel/plugin-transform-typescript@7.22.11(@babel/core@7.22.10):
+    resolution: {integrity: sha512-0E4/L+7gfvHub7wsbTv03oRtD69X31LByy44fGmFzbZScpupFByMcgCJ0VbBTkzyjSJKuRoGN8tcijOWKTmqOA==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
     dependencies:
       '@babel/core': 7.22.10
       '@babel/helper-annotate-as-pure': 7.22.5
-      '@babel/helper-create-class-features-plugin': 7.22.10(@babel/core@7.22.10)
+      '@babel/helper-create-class-features-plugin': 7.22.11(@babel/core@7.22.10)
       '@babel/helper-plugin-utils': 7.22.5
       '@babel/plugin-syntax-typescript': 7.22.5(@babel/core@7.22.10)
 
@@ -1429,8 +1457,8 @@ packages:
       '@babel/plugin-transform-react-jsx-development': 7.22.5(@babel/core@7.22.10)
       '@babel/plugin-transform-react-pure-annotations': 7.22.5(@babel/core@7.22.10)
 
-  /@babel/preset-typescript@7.22.5(@babel/core@7.22.10):
-    resolution: {integrity: sha512-YbPaal9LxztSGhmndR46FmAbkJ/1fAsw293tSU+I5E5h+cnJ3d4GTwyUgGYmOXJYdGA+uNePle4qbaRzj2NISQ==}
+  /@babel/preset-typescript@7.22.11(@babel/core@7.22.10):
+    resolution: {integrity: sha512-tWY5wyCZYBGY7IlalfKI1rLiGlIfnwsRHZqlky0HVv8qviwQ1Uo/05M6+s+TcTCVa6Bmoo2uJW5TMFX6Wa4qVg==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -1439,8 +1467,8 @@ packages:
       '@babel/helper-plugin-utils': 7.22.5
       '@babel/helper-validator-option': 7.22.5
       '@babel/plugin-syntax-jsx': 7.22.5(@babel/core@7.22.10)
-      '@babel/plugin-transform-modules-commonjs': 7.22.5(@babel/core@7.22.10)
-      '@babel/plugin-transform-typescript': 7.22.10(@babel/core@7.22.10)
+      '@babel/plugin-transform-modules-commonjs': 7.22.11(@babel/core@7.22.10)
+      '@babel/plugin-transform-typescript': 7.22.11(@babel/core@7.22.10)
 
   /@babel/register@7.22.5(@babel/core@7.22.10):
     resolution: {integrity: sha512-vV6pm/4CijSQ8Y47RH5SopXzursN35RQINfGJkmOlcpAtGuf94miFvIPhCKGQN7WGIcsgG1BHEX2KVdTYwTwUQ==}
@@ -4076,7 +4104,7 @@ packages:
       '@babel/plugin-transform-runtime': 7.22.10(@babel/core@7.22.10)
       '@babel/preset-env': 7.22.10(@babel/core@7.22.10)
       '@babel/preset-react': 7.22.5(@babel/core@7.22.10)
-      '@babel/preset-typescript': 7.22.5(@babel/core@7.22.10)
+      '@babel/preset-typescript': 7.22.11(@babel/core@7.22.10)
       '@babel/runtime': 7.22.10
       '@storybook/addon-actions': 7.3.2(@types/react-dom@18.2.7)(@types/react@18.2.21)(react-dom@18.2.0)(react@18.2.0)
       '@storybook/builder-webpack5': 7.3.2(@types/react-dom@18.2.7)(@types/react@18.2.21)(esbuild@0.18.20)(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)
@@ -9861,7 +9889,7 @@ packages:
       '@babel/plugin-transform-modules-commonjs': 7.22.5(@babel/core@7.22.10)
       '@babel/preset-env': 7.22.10(@babel/core@7.22.10)
       '@babel/preset-flow': 7.22.5(@babel/core@7.22.10)
-      '@babel/preset-typescript': 7.22.5(@babel/core@7.22.10)
+      '@babel/preset-typescript': 7.22.11(@babel/core@7.22.10)
       '@babel/register': 7.22.5(@babel/core@7.22.10)
       babel-core: 7.0.0-bridge.0(@babel/core@7.22.10)
       chalk: 4.1.2
@@ -12939,7 +12967,7 @@ packages:
       '@babel/plugin-proposal-object-rest-spread': 7.20.7(@babel/core@7.22.10)
       '@babel/preset-env': 7.22.10(@babel/core@7.22.10)
       '@babel/preset-react': 7.22.5(@babel/core@7.22.10)
-      '@babel/preset-typescript': 7.22.5(@babel/core@7.22.10)
+      '@babel/preset-typescript': 7.22.11(@babel/core@7.22.10)
       '@babel/traverse': 7.22.10
       '@emotion/is-prop-valid': 1.2.1
       '@emotion/unitless': 0.8.1
