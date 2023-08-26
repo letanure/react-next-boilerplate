@@ -8,7 +8,7 @@
     "generate": "pnpm plop --plopfile generators/plopfile.js",
     "lint": "pnpm lint:all",
     "lint:next": "next lint",
-    "lint:js": "eslint src --max-warnings=0",
+    "lint:js": "eslint ./**/*.{js,ts,tsx} --max-warnings=0",
     "lint:all": "pnpm lint:next && pnpm lint:css ",
     "lint:css": "stylelint './src/**/*.ts' --max-warnings 0",
     "prepare": "husky install",
@@ -21,7 +21,7 @@
   },
   "lint-staged": {
     "src/**/*": [
-      "pnpm lint:js --fix",
+      "pnpm lint:js",
       "pnpm test --bail "
     ]
   },

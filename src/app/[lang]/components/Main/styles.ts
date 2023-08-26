@@ -1,9 +1,9 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.main`
+  background-color: #a2aecd;
   height: 100%;
   width: 100%;
-  background-color: #a2aecd;
 `
 
 export const Title = styled.h1`
