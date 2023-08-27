@@ -2,9 +2,9 @@
 
 exports[`<Main /> should render the heading 1`] = `
 .c0 {
+  background-color: #a2aecd;
   height: 100%;
   width: 100%;
-  background-color: #a2aecd;
 }
 
 .c1 {
@@ -33,4 +33,4 @@ exports[`<Main /> should render the heading 1`] = `
     TypeScript, ReactJS, NextJS e Styled Components
   </h2>
 </main>
-`
+`;
