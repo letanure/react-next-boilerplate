@@ -21,7 +21,8 @@
   },
   "lint-staged": {
     "src/**/*": [
-      "pnpm test --bail"
+      "pnpm lint:js",
+      "pnpm test --bail "
     ]
   },
   "dependencies": {
