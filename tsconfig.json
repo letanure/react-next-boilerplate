@@ -11,7 +11,8 @@
     "noEmit": true,
     "paths": {
       "@components/*": ["./src/components/*"],
-      "@libs/*": ["./src/libs/*"]
+      "@libs/*": ["./src/libs/*"],
+      "@styles/*": ["./src/styles/*"]
     },
     "plugins": [
       {

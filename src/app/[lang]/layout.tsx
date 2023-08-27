@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 
 import StyledComponentsRegistry from '@libs/registry'
-import GlobalStyles from './styles/global'
+import GlobalStyles from '@styles/global'
 
 export const metadata: Metadata = {
   title: {
