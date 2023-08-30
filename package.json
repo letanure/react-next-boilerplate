@@ -45,7 +45,7 @@
     "@storybook/blocks": "^7.3.2",
     "@storybook/csf-tools": "^7.3.2",
     "@storybook/nextjs": "^7.3.2",
-    "@storybook/react": "^7.3.2",
+    "@storybook/react": "^7.4.0",
     "@storybook/testing-library": "^0.2.0",
     "@testing-library/jest-dom": "^6.1.2",
     "@testing-library/react": "^14.0.0",
