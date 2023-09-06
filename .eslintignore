@@ -1,2 +1,6 @@
 !.storybook
 !**/*.snap
+!.next
+!coverage
+!node_modules
+!.jest

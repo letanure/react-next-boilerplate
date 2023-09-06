@@ -1,5 +1,5 @@
-import type { Preview } from '@storybook/react'
 import { withThemeFromJSXProvider } from '@storybook/addon-styling'
+import type { Preview } from '@storybook/react'
 import GlobalStyles from '../src/styles/global'
 
 export const decorators = [
