@@ -41,9 +41,9 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "paths": {
-      "@components/*": ["./src/components/*"],
-      "@libs/*": ["./src/libs/*"],
-      "@styles/*": ["./src/styles/*"]
+      "@/components/*": ["./src/components/*"],
+      "@/libs/*": ["./src/libs/*"],
+      "@/styles/*": ["./src/styles/*"]
     },
     "plugins": [
       {
