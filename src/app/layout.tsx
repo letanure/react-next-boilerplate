@@ -9,6 +9,7 @@ export const metadata: Metadata = {
     template: '%s | Boilerplate',
   },
   description: 'Next.js + Styled Components + TypeScript Boilerplate',
+  themeColor: '#a2aecd',
   manifest: '/manifest.json',
 }
 
