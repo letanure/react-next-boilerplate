@@ -1,8 +1,13 @@
 {
   "semi": false,
   "singleQuote": true,
-  "plugins": ["@trivago/prettier-plugin-sort-imports"],
-  "importOrder": ["<THIRD_PARTY_MODULES>", "^[./]"],
+  "plugins": [
+    "@trivago/prettier-plugin-sort-imports"
+  ],
+  "importOrder": [
+    "<THIRD_PARTY_MODULES>",
+    "^[./]"
+  ],
   "importOrderSeparation": false,
   "importOrderSortSpecifiers": true
 }
