@@ -1,4 +1,4 @@
-import Main from '@components/Main'
+import Main from '@/components/Main'
 import { use } from 'react'
 
 interface Props {
@@ -12,8 +12,7 @@ export async function generateStaticParams() {
 }
 
 export default function Home({ params }: Props) {
-  const { default: lang } = use(import(`./dictionaries/${params.lang}.json`))
-  console.log('lang', lang)
+  const { default: _lang } = use(import(`./dictionaries/${params.lang}.json`))
   return (
     <>
       <Main />
