@@ -17,7 +17,7 @@
     // Transpile with TS
     // "module": "NodeNext",
     // "moduleResolution": "NodeNext",
-    
+
     // Transpile without TS
     "module": "ESNext",
     "moduleResolution": "bundler",
@@ -25,7 +25,7 @@
 
     // DOM ?
     "lib": ["dom", "es2022"],
-    
+
     // no DOM ?
     // "lib": ["es2022"],
 
