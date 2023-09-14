@@ -3,7 +3,7 @@ import { use } from 'react'
 
 interface Props {
   params: {
-    lang: 'es' | 'en' | 'de'
+    lang: 'en' | 'pt'
   }
 }
 
@@ -13,9 +13,9 @@ export async function generateStaticParams() {
 
 export default function Home({ params }: Props) {
   const { default: lang } = use(import(`./dictionaries/${params.lang}.json`))
+  console.log('lang', lang)
   return (
     <>
-      <pre>{JSON.stringify(lang)}</pre>
       <Main />
     </>
   )
