@@ -1,14 +1,45 @@
 {
   "compilerOptions": {
+    // Base
     "allowJs": true,
     "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleDetection": "force",
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "target": "es2022",
+    "verbatimModuleSyntax": true,
+
+    // Strict
+    "noUncheckedIndexedAccess": true,
+    "strict": true,
+
+    // Transpile with TS
+    // "module": "NodeNext",
+    // "moduleResolution": "NodeNext",
+    
+    // Transpile without TS
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "noEmit": true,
+
+    // DOM ?
+    "lib": ["dom", "es2022"],
+    
+    // no DOM ?
+    // "lib": ["es2022"],
+
+    // publish to npm ?
+    "declaration": true,
+
+    // publich on monorepo?
+    // "declarationMap": true,
+    // "sourceMap": true,
+
+    // etc
     "incremental": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "module": "esnext",
-    "moduleResolution": "bundler",
-    "noEmit": true,
     "paths": {
       "@components/*": ["./src/components/*"],
       "@libs/*": ["./src/libs/*"],
@@ -18,11 +49,7 @@
       {
         "name": "next"
       }
-    ],
-    "resolveJsonModule": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "target": "es5"
+    ]
   },
   "exclude": ["node_modules"],
   "include": [
