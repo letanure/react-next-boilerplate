@@ -8,18 +8,19 @@ const GlobalStyles = createGlobalStyle`
     padding: 0;
   }
 
-  html {
-    background-color: aliceblue;
-    box-sizing: border-box;
-    font-size: 62.5%;
-    padding: 0;
-    text-align: center;
-  }
-
   *, *::before, *::after {
     box-sizing: inherit;
   }
 
+  html {
+    background-color: aliceblue;
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem = 10px == 10/16 = 62.6 */
+    padding: 0;
+    text-align: center;
+  }
+
+  
   html, body, #__next {
     height: 100%;
     padding: 0;
