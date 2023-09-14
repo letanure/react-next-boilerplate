@@ -5,3 +5,4 @@
 !node_modules
 !.jest
 !generators/templates
+!.lintstagedrc.js
