@@ -43,7 +43,8 @@
     "paths": {
       "@/components/*": ["./src/components/*"],
       "@/libs/*": ["./src/libs/*"],
-      "@/styles/*": ["./src/styles/*"]
+      "@/styles/*": ["./src/styles/*"],
+      "test-utils": ["./src/utils/test-utils"]
     },
     "plugins": [
       {
