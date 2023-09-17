@@ -64,6 +64,7 @@ const GlobalStyles = createGlobalStyle`
         'Open Sans',
         'Helvetica Neue',
         sans-serif;
+      font-size: ${theme.sizes.medium};
     }
   `}  
 

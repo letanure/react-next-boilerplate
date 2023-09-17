@@ -19,6 +19,16 @@ const theme = {
   base: {
     fontText: 'Noto Sans',
   },
+  sizes: {
+    small1: '0.8rem',
+    small0: '1.2rem',
+    medium: '1.6rem',
+    large0: '2.0rem',
+    large1: '2.4rem',
+    large2: '3.2rem',
+    large3: '4.0rem',
+    large4: '4.8rem',
+  },
 }
 
 export default theme
