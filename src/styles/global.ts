@@ -3,6 +3,30 @@
 import { createGlobalStyle } from 'styled-components'
 
 const GlobalStyles = createGlobalStyle`
+  @font-face {
+    font-display: swap; 
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: url('/fonts/noto-sans-v30-latin-300.woff2') format('woff2'); 
+  }
+
+  @font-face {
+    font-display: swap; 
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/noto-sans-v30-latin-regular.woff2') format('woff2'); 
+  }
+
+  @font-face {
+    font-display: swap; 
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('/fonts/noto-sans-v30-latin-600.woff2') format('woff2'); 
+  }
+
   * {
     margin: 0;
     padding: 0;
@@ -18,6 +42,8 @@ const GlobalStyles = createGlobalStyle`
     font-size: 62.5%; /* 1rem = 10px == 10/16 = 62.6 */
     padding: 0;
     text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   
@@ -27,7 +53,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-family: 'Noto Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
   }
 `
 
