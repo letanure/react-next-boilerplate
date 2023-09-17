@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.4.0](https://github.com/letanure/react-next-boilerplate/compare/v1.3.0...v1.4.0) (2023-09-17)
+
+
+### Features
+
+* Add theme and font-face definitions ([5c916ea](https://github.com/letanure/react-next-boilerplate/commit/5c916ea7e27307853379794446c20ebecbb497b4))
+* **styles:** add Noto Sans font-face ([a56e781](https://github.com/letanure/react-next-boilerplate/commit/a56e7812850258adce99ebe0bc3958a38cc95029))
+
 ## [1.3.0](https://github.com/letanure/react-next-boilerplate/compare/v1.2.0...v1.3.0) (2023-09-14)
 
 
