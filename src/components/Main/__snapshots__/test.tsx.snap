@@ -19,6 +19,12 @@ exports[`<Main /> should render the heading 1`] = `
   font-weight: 400;
 }
 
+@media (max-width: 768px) {
+  .c0 {
+    border: 5px solid red;
+  }
+}
+
 <main
   class="c0"
 >

@@ -20,6 +20,9 @@ dependencies:
   styled-components:
     specifier: ^6.0.8
     version: 6.0.8(babel-plugin-styled-components@2.1.4)(react-dom@18.2.0)(react@18.2.0)
+  styled-media-query:
+    specifier: ^2.1.2
+    version: 2.1.2(styled-components@6.0.8)
 
 devDependencies:
   '@babel/preset-typescript':
@@ -14188,6 +14191,14 @@ packages:
       '@babel/core': 7.22.17
       client-only: 0.0.1
       react: 18.2.0
+
+  /styled-media-query@2.1.2(styled-components@6.0.8):
+    resolution: {integrity: sha512-ds24iBxOrfIhdHP+e23y6kj1gbosgWu+tgAuxvMrYmnp6Sju/LjuY8lfkiVnn6P7mcdhtwpC2Z43o+apT9UdJg==}
+    peerDependencies:
+      styled-components: '>= 1'
+    dependencies:
+      styled-components: 6.0.8(babel-plugin-styled-components@2.1.4)(react-dom@18.2.0)(react@18.2.0)
+    dev: false
 
   /stylelint-config-recommended@13.0.0(stylelint@15.10.3):
     resolution: {integrity: sha512-EH+yRj6h3GAe/fRiyaoO2F9l9Tgg50AOFhaszyfov9v6ayXJ1IkSHwTxd7lB48FmOeSGDPLjatjO11fJpmarkQ==}

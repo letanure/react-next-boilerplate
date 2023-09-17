@@ -1,6 +1,19 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
+import media from 'styled-media-query'
 
 export const Wrapper = styled.main`
+  ${() => css`
+    background-color: #a2aecd;
+    height: 100%;
+    width: 100%;
+
+    ${media.lessThan('medium')`
+      border: 5px solid red
+    `}
+  `}
+`
+
+export const Wrapper2 = styled.main`
   background-color: #a2aecd;
   height: 100%;
   width: 100%;
