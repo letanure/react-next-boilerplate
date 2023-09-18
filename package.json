@@ -11,6 +11,7 @@
     "lint:js": "eslint ./src --max-warnings=0",
     "lint:all": "pnpm lint:next && pnpm lint:css ",
     "lint:css": "stylelint './src/**/*.ts' --max-warnings 0",
+    "lint:ts": "tsc --project tsconfig.json --noEmit",
     "prepare": "husky install",
     "start": "next start",
     "test:ci": "jest --runInBand",
