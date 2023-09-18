@@ -29,6 +29,6 @@ const theme = {
     large3: '4.0rem',
     large4: '4.8rem',
   },
-}
+} as const
 
 export default theme
