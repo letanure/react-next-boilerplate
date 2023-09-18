@@ -38,10 +38,10 @@ const GlobalStyles = createGlobalStyle`
       background-color: aliceblue;
       box-sizing: border-box;
       font-size: 62.5%; /* 1rem = 10px == 10/16 = 62.6 */
+      -moz-osx-font-smoothing: grayscale;
+      -webkit-font-smoothing: antialiased;
       padding: 0;
       text-align: center;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
     }
 
     html,
