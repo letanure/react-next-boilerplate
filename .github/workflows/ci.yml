@@ -23,8 +23,14 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
+      - name: Linting TS
+        run: pnpm lint:ts
+
+      - name: Linting Next
+        run: pnpm lint:next
+
       - name: Linting
-        run: pnpm lint:all
+        run: pnpm lint:css
 
       - name: Testing
         run: pnpm test:ci
