@@ -31,7 +31,7 @@
     "@babel/preset-typescript": "^7.22.15",
     "@commitlint/cli": "^17.7.1",
     "@commitlint/config-conventional": "^17.7.0",
-    "@storybook/addon-a11y": "^7.4.1",
+    "@storybook/addon-a11y": "^7.4.2",
     "@storybook/addon-essentials": "^7.4.1",
     "@storybook/blocks": "^7.4.1",
     "@storybook/csf-tools": "^7.4.1",
