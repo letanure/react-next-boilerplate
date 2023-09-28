@@ -62,7 +62,7 @@
     "jest-environment-jsdom": "^29.7.0",
     "jest-styled-components": "^7.1.1",
     "lint-staged": "^14.0.1",
-    "plop": "^3.1.2",
+    "plop": "^4.0.0",
     "postcss-styled-syntax": "^0.5.0",
     "prettier": "3.0.3",
     "storybook": "^7.4.5",
