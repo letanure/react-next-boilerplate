@@ -26,8 +26,8 @@ dependencies:
 
 devDependencies:
   '@babel/preset-typescript':
-    specifier: ^7.23.0
-    version: 7.23.0(@babel/core@7.23.0)
+    specifier: ^7.23.2
+    version: 7.23.2(@babel/core@7.23.0)
   '@commitlint/cli':
     specifier: ^17.7.2
     version: 17.7.2(@swc/core@1.3.91)
@@ -2445,8 +2445,8 @@ packages:
       '@babel/plugin-transform-react-jsx-development': 7.22.5(@babel/core@7.22.10)
       '@babel/plugin-transform-react-pure-annotations': 7.22.5(@babel/core@7.22.10)
 
-  /@babel/preset-typescript@7.23.0(@babel/core@7.22.10):
-    resolution: {integrity: sha512-6P6VVa/NM/VlAYj5s2Aq/gdVg8FSENCg3wlZ6Qau9AcPaoF5LbN1nyGlR9DTRIw9PpxI94e+ReydsJHcjwAweg==}
+  /@babel/preset-typescript@7.23.2(@babel/core@7.22.10):
+    resolution: {integrity: sha512-u4UJc1XsS1GhIGteM8rnGiIvf9rJpiVgMEeCnwlLA7WJPC+jcXWJAGxYmeqs5hOZD8BbAfnV5ezBOxQbb4OUxA==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -2458,8 +2458,8 @@ packages:
       '@babel/plugin-transform-modules-commonjs': 7.23.0(@babel/core@7.22.10)
       '@babel/plugin-transform-typescript': 7.22.15(@babel/core@7.22.10)
 
-  /@babel/preset-typescript@7.23.0(@babel/core@7.23.0):
-    resolution: {integrity: sha512-6P6VVa/NM/VlAYj5s2Aq/gdVg8FSENCg3wlZ6Qau9AcPaoF5LbN1nyGlR9DTRIw9PpxI94e+ReydsJHcjwAweg==}
+  /@babel/preset-typescript@7.23.2(@babel/core@7.23.0):
+    resolution: {integrity: sha512-u4UJc1XsS1GhIGteM8rnGiIvf9rJpiVgMEeCnwlLA7WJPC+jcXWJAGxYmeqs5hOZD8BbAfnV5ezBOxQbb4OUxA==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -4986,7 +4986,7 @@ packages:
       '@babel/plugin-transform-runtime': 7.22.15(@babel/core@7.23.0)
       '@babel/preset-env': 7.22.20(@babel/core@7.23.0)
       '@babel/preset-react': 7.22.15(@babel/core@7.23.0)
-      '@babel/preset-typescript': 7.23.0(@babel/core@7.23.0)
+      '@babel/preset-typescript': 7.23.2(@babel/core@7.23.0)
       '@babel/runtime': 7.23.1
       '@storybook/addon-actions': 7.4.6(@types/react-dom@18.2.8)(@types/react@18.2.27)(react-dom@18.2.0)(react@18.2.0)
       '@storybook/builder-webpack5': 7.4.6(@types/react-dom@18.2.8)(@types/react@18.2.27)(esbuild@0.18.20)(react-dom@18.2.0)(react@18.2.0)(typescript@5.2.2)
@@ -10866,7 +10866,7 @@ packages:
       '@babel/plugin-transform-modules-commonjs': 7.23.0(@babel/core@7.23.0)
       '@babel/preset-env': 7.22.20(@babel/core@7.23.0)
       '@babel/preset-flow': 7.22.15(@babel/core@7.23.0)
-      '@babel/preset-typescript': 7.23.0(@babel/core@7.23.0)
+      '@babel/preset-typescript': 7.23.2(@babel/core@7.23.0)
       '@babel/register': 7.22.15(@babel/core@7.23.0)
       babel-core: 7.0.0-bridge.0(@babel/core@7.23.0)
       chalk: 4.1.2
@@ -13855,7 +13855,7 @@ packages:
       '@babel/plugin-proposal-object-rest-spread': 7.20.7(@babel/core@7.22.10)
       '@babel/preset-env': 7.22.10(@babel/core@7.22.10)
       '@babel/preset-react': 7.22.5(@babel/core@7.22.10)
-      '@babel/preset-typescript': 7.23.0(@babel/core@7.22.10)
+      '@babel/preset-typescript': 7.23.2(@babel/core@7.22.10)
       '@babel/traverse': 7.22.10
       '@emotion/is-prop-valid': 1.2.1
       '@emotion/unitless': 0.8.1
