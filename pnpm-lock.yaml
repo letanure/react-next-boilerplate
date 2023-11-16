@@ -122,8 +122,8 @@ devDependencies:
     specifier: ^29.7.0
     version: 29.7.0
   jest-styled-components:
-    specifier: ^7.1.1
-    version: 7.1.1(styled-components@6.1.0)
+    specifier: ^7.2.0
+    version: 7.2.0(styled-components@6.1.0)
   lint-staged:
     specifier: ^15.0.2
     version: 15.0.2
@@ -10743,8 +10743,8 @@ packages:
       - supports-color
     dev: true
 
-  /jest-styled-components@7.1.1(styled-components@6.1.0):
-    resolution: {integrity: sha512-OUq31R5CivBF8oy81dnegNQrRW13TugMol/Dz6ZnFfEyo03exLASod7YGwyHGuayYlKmCstPtz0RQ1+NrAbIIA==}
+  /jest-styled-components@7.2.0(styled-components@6.1.0):
+    resolution: {integrity: sha512-gwyyveNjvuRA0pyhbQoydXZllLZESs2VuL5fXCabzh0buHPAOUfANtW7n5YMPmdC0sH3VB7h2eUGZ23+tjvaBA==}
     engines: {node: '>= 12'}
     peerDependencies:
       styled-components: '>= 5'
